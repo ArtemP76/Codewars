@@ -8,8 +8,8 @@
 // You can assume that all values are integers. Do not mutate the input array/list.
 
 function invert(array) {
-    let invertedArr = [];
+    let invertedArray = [];
     for (i = 0; i < array.length; i++) {
-        invertedArr.push(array[i] * -1)
-    } return invertedArr
+        invertedArray.push(array[i] * -1)
+    } return invertedArray
 }
