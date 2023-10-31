@@ -1,7 +1,8 @@
+/* func */
 function digitize(n) {
     let numbers = n.toString().split("").reverse();
     let digitalArray = []
-    for (let i = 0; i < numbers.length; i++){
+    for (let i = 0; i < numbers.length; i++) {
         let currentNumber = numbers[i] * 1
         digitalArray.push(currentNumber)
     };
