@@ -5,7 +5,7 @@
 // invert([1,-2,3,-4,5]) == [-1,2,-3,4,-5]
 // invert([]) == []
 //
-// You can assume that all values are integers. Do not mutate the input array/list.
+// You can assume that all values are integers. Do not mutate the input arrays/list.
 
 function invert(array) {
     let invertedArray = [];
