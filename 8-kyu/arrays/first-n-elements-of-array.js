@@ -6,7 +6,7 @@ function take(arr, n) {
         firstNElements.push(arr[i]);
     }
 
-    return firstNElements;
+    return firstNElements
 
 }
 
